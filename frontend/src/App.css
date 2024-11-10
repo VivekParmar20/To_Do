@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* App.css */
+button {
+  position: relative;
+  z-index: 10;
+  padding: 10px 20px;
+  cursor: pointer;
+}

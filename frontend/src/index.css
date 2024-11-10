@@ -1,0 +1,31 @@
+/* index.css - Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+}
